@@ -1,0 +1,27 @@
+;; The first three lines of this file were inserted by DrRacket. They record metadata
+;; about the language level of this file in a form that our tools can easily process.
+#reader(lib "htdp-beginner-reader.ss" "lang")((modname enumeration) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
+;; data definition..:
+;; LetterGrade is one of:
+;; -"A"
+;; -"B"
+;; -"C"
+;; interp. The grade letter in a course.
+;; examples are redundant for enumerations but I wrote them anyway:
+(define L1 "A")
+(define L2 "B")
+(define L3 "C")
+
+(define (fn-for-lettergrade l)
+  (cond [(string=? l "A") (...)]
+        [(string=? l "B") (...)]
+        [(string=? l "C") (...)]
+
+
+    ))
+
+;; templates rules:
+;; - one of: 3 cases
+;; - atomic distinct value: "A"
+;; - atomic distinct value: "B"
+;; - atomic distinct value: "C"
